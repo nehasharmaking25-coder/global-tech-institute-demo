@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Global Tech Institute — World-Class Online University</title>
+  <meta name="description" content="Global Tech Institute is a premier online university offering accredited degrees in Computer Science, Business, Design, Engineering, Medicine, and Law." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ============ TOP UTILITY BAR ============ -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-left">
+        <span>📞 +1 (800) 555-0199</span>
+        <span class="topbar-divider">|</span>
+        <span>✉️ admissions@globaltech.edu</span>
+      </div>
+      <div class="topbar-right">
+        <a href="#">Alumni</a>
+        <a href="#">Library</a>
+        <a href="#">Careers</a>
+        <a href="#" class="topbar-cta">Apply Now</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ HEADER / MEGA-MENU NAV ============ -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">GTI</span>
+        <span class="logo-text">Global Tech<br /><small>Institute</small></span>
+      </a>
+
+      <nav class="main-nav" id="mainNav">
+        <ul class="nav-list">
+          <!-- Academics Mega Menu -->
+          <li class="nav-item has-mega">
+            <button class="nav-link" data-mega="academics">Academics <span class="caret">▾</span></button>
+            <div class="mega-menu" id="mega-academics">
+              <div class="mega-grid">
+                <div class="mega-col">
+                  <h4>Departments</h4>
+                  <a href="departments/computer-science.html">Computer Science</a>
+                  <a href="departments/business.html">Business</a>
+                  <a href="departments/design.html">Design</a>
+                  <a href="departments/engineering.html">Engineering</a>
+                  <a href="departments/medicine.html">Medicine</a>
+                  <a href="departments/law.html">Law</a>
+                </div>
+                <div class="mega-col">
+                  <h4>Programs</h4>
+                  <a href="#">Undergraduate</a>
+                  <a href="#">Graduate</a>
+                  <a href="#">Doctoral</a>
+                  <a href="#">Certificates</a>
+                  <a href="#">Micro-credentials</a>
+                </div>
+                <div class="mega-col mega-feature">
+                  <h4>Featured Program</h4>
+                  <div class="mega-card">
+                    <span class="mega-badge">New</span>
+                    <h5>B.Sc. Artificial Intelligence</h5>
+                    <p>Master machine learning, neural networks, and data science in our flagship program.</p>
+                    <a href="#" class="mega-link">Explore →</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- Admissions Mega Menu -->
+          <li class="nav-item has-mega">
+            <button class="nav-link" data-mega="admissions">Admissions <span class="caret">▾</span></button>
+            <div class="mega-menu" id="mega-admissions">
+              <div class="mega-grid">
+                <div class="mega-col">
+                  <h4>Apply</h4>
+                  <a href="#">How to Apply</a>
+                  <a href="#">Application Deadlines</a>
+                  <a href="#">Tuition &amp; Fees</a>
+                  <a href="#">Scholarships</a>
+                  <a href="#">Financial Aid</a>
+                </div>
+                <div class="mega-col">
+                  <h4>Visit &amp; Connect</h4>
+                  <a href="#">Virtual Open House</a>
+                  <a href="#">Campus Tours</a>
+                  <a href="#">Request Info</a>
+                  <a href="#">Contact Admissions</a>
+                </div>
+                <div class="mega-col mega-feature">
+                  <h4>Upcoming Deadline</h4>
+                  <div class="mega-card">
+                    <span class="mega-badge accent">Spring 2027</span>
+                    <h5>Priority Application</h5>
+                    <p>Submit by <strong>November 15, 2026</strong> for early decision consideration.</p>
+                    <a href="#" class="mega-link">Apply Now →</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- Student Life Mega Menu -->
+          <li class="nav-item has-mega">
+            <button class="nav-link" data-mega="life">Student Life <span class="caret">▾</span></button>
+            <div class="mega-menu" id="mega-life">
+              <div class="mega-grid">
+                <div class="mega-col">
+                  <h4>Community</h4>
+                  <a href="#">Student Clubs</a>
+                  <a href="#">Events &amp; Activities</a>
+                  <a href="#">Athletics</a>
+                  <a href="#">Diversity &amp; Inclusion</a>
+                </div>
+                <div class="mega-col">
+                  <h4>Support</h4>
+                  <a href="#">Academic Advising</a>
+                  <a href="#">Career Services</a>
+                  <a href="#">Counseling</a>
+                  <a href="#">Disability Services</a>
+                </div>
+                <div class="mega-col mega-feature">
+                  <h4>Student Portal</h4>
+                  <div class="mega-card">
+                    <span class="mega-badge">24/7</span>
+                    <h5>Access Your Dashboard</h5>
+                    <p>Grades, schedules, and resources — all in one secure place.</p>
+                    <a href="login.html" class="mega-link">Login →</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item"><a class="nav-link" href="#catalog">Course Catalog</a></li>
+          <li class="nav-item"><a class="nav-link" href="#departments">Departments</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="login.html" class="btn btn-ghost">Login</a>
+        <a href="#" class="btn btn-primary">Apply Now</a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ HERO SECTION ============ -->
+  <section class="hero" id="hero">
+    <div class="hero-video-wrap">
+      <video class="hero-video" autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1600&q=80">
+        <source src="https://cdn.coverr.co/videos/coverr-aerial-view-of-a-university-campus-5244/1080p.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="container hero-content">
+      <span class="hero-eyebrow animate-pop">🎓 Accredited Online University</span>
+      <h1 class="hero-title">
+        <span class="line line-1">Shape the Future.</span>
+        <span class="line line-2">Learn Without Limits.</span>
+      </h1>
+      <p class="hero-subtitle">Earn a world-class degree from anywhere on Earth. Join 40,000+ students across 120 countries at Global Tech Institute.</p>
+      <div class="hero-cta">
+        <a href="#catalog" class="btn btn-primary btn-lg">Explore Programs</a>
+        <a href="#about" class="btn btn-glass btn-lg">▶ Watch Video</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num" data-count="40000">0</span><span class="stat-label">Students</span></div>
+        <div class="stat"><span class="stat-num" data-count="120">0</span><span class="stat-label">Countries</span></div>
+        <div class="stat"><span class="stat-num" data-count="98">0</span><span class="stat-label">% Employed</span></div>
+        <div class="stat"><span class="stat-num" data-count="250">0</span><span class="stat-label">Programs</span></div>
+      </div>
+    </div>
+    <div class="hero-scroll">Scroll ↓</div>
+  </section>
+
+  <!-- ============ DEPARTMENTS ============ -->
+  <section class="section" id="departments">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Academic Excellence</span>
+        <h2>Six World-Class Departments</h2>
+        <p>Choose from six distinguished schools, each led by renowned faculty and powered by cutting-edge research.</p>
+      </div>
+      <div class="dept-grid">
+        <a href="departments/computer-science.html" class="dept-card">
+          <div class="dept-icon">💻</div>
+          <h3>Computer Science</h3>
+          <p>AI, cybersecurity, software engineering, and data science.</p>
+          <span class="dept-link">Explore →</span>
+        </a>
+        <a href="departments/business.html" class="dept-card">
+          <div class="dept-icon">📊</div>
+          <h3>Business</h3>
+          <p>Finance, marketing, entrepreneurship, and global management.</p>
+          <span class="dept-link">Explore →</span>
+        </a>
+        <a href="departments/design.html" class="dept-card">
+          <div class="dept-icon">🎨</div>
+          <h3>Design</h3>
+          <p>UX/UI, graphic design, animation, and creative technology.</p>
+          <span class="dept-link">Explore →</span>
+        </a>
+        <a href="departments/engineering.html" class="dept-card">
+          <div class="dept-icon">⚙️</div>
+          <h3>Engineering</h3>
+          <p>Mechanical, electrical, civil, and aerospace innovation.</p>
+          <span class="dept-link">Explore →</span>
+        </a>
+        <a href="departments/medicine.html" class="dept-card">
+          <div class="dept-icon">🩺</div>
+          <h3>Medicine</h3>
+          <p>Clinical sciences, public health, and biomedical research.</p>
+          <span class="dept-link">Explore →</span>
+        </a>
+        <a href="departments/law.html" class="dept-card">
+          <div class="dept-icon">⚖️</div>
+          <h3>Law</h3>
+          <p>International law, human rights, and corporate governance.</p>
+          <span class="dept-link">Explore →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ COURSE CATALOG ============ -->
+  <section class="section section-alt" id="catalog">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Course Catalog</span>
+        <h2>Find Your Perfect Course</h2>
+        <p>Filter by department, level, or search by keyword to discover 250+ accredited courses.</p>
+      </div>
+
+      <div class="catalog-controls">
+        <input type="text" id="courseSearch" class="catalog-search" placeholder="🔍 Search courses..." />
+        <div class="filter-group" id="filterGroup">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="cs">Computer Science</button>
+          <button class="filter-btn" data-filter="business">Business</button>
+          <button class="filter-btn" data-filter="design">Design</button>
+          <button class="filter-btn" data-filter="engineering">Engineering</button>
+          <button class="filter-btn" data-filter="medicine">Medicine</button>
+          <button class="filter-btn" data-filter="law">Law</button>
+        </div>
+      </div>
+
+      <div class="course-grid" id="courseGrid"></div>
+      <div class="catalog-empty" id="catalogEmpty" hidden>No courses match your search. Try a different keyword.</div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT / FEATURES ============ -->
+  <section class="section" id="about">
+    <div class="container about-grid">
+      <div class="about-content">
+        <span class="section-tag">Why Global Tech</span>
+        <h2>A University Built for the Digital Age</h2>
+        <p>Since 2010, Global Tech Institute has redefined higher education with flexible, affordable, and rigorous online learning. Our graduates lead at Google, the UN, and Fortune 500 companies worldwide.</p>
+        <ul class="feature-list">
+          <li>✅ 100% online, self-paced learning</li>
+          <li>✅ Accredited by global education bodies</li>
+          <li>✅ 1:1 mentorship from industry experts</li>
+          <li>✅ Lifetime career services &amp; alumni network</li>
+        </ul>
+        <a href="#" class="btn btn-primary">Learn More About Us</a>
+      </div>
+      <div class="about-visual">
+        <div class="glass-card glass-card-1">
+          <span class="glass-num">98%</span>
+          <span class="glass-label">Graduate Employment Rate</span>
+        </div>
+        <div class="glass-card glass-card-2">
+          <span class="glass-num">4.8★</span>
+          <span class="glass-label">Average Student Rating</span>
+        </div>
+        <div class="glass-card glass-card-3">
+          <span class="glass-num">120+</span>
+          <span class="glass-label">Countries Represented</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Student Stories</span>
+        <h2>What Our Students Say</h2>
+      </div>
+      <div class="testimonial-grid">
+        <div class="testimonial">
+          <p>"The flexibility of Global Tech let me earn my CS degree while working full-time. I landed a job at a top tech firm before graduation."</p>
+          <div class="testimonial-author"><span class="avatar">AK</span><div><strong>Aisha Khan</strong><small>B.Sc. Computer Science '25</small></div></div>
+        </div>
+        <div class="testimonial">
+          <p>"World-class professors, real projects, and a global network. The MBA program transformed my career trajectory completely."</p>
+          <div class="testimonial-author"><span class="avatar">MR</span><div><strong>Marcus Rivera</strong><small>MBA '24</small></div></div>
+        </div>
+        <div class="testimonial">
+          <p>"As a working nurse, the online Medicine program gave me the credentials to advance without pausing my life. Truly life-changing."</p>
+          <div class="testimonial-author"><span class="avatar">SL</span><div><strong>Sarah Lee</strong><small>M.Sc. Public Health '26</small></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA BANNER ============ -->
+  <section class="cta-banner">
+    <div class="container cta-inner">
+      <div>
+        <h2>Ready to Start Your Journey?</h2>
+        <p>Applications for Spring 2027 are now open. Apply today and join a global community of learners.</p>
+      </div>
+      <a href="#" class="btn btn-light btn-lg">Apply Now →</a>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col footer-brand">
+        <a href="index.html" class="logo logo-footer">
+          <span class="logo-mark">GTI</span>
+          <span class="logo-text">Global Tech<br /><small>Institute</small></span>
+        </a>
+        <p>Empowering learners worldwide with accessible, accredited, and innovative online education since 2010.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Twitter">𝕏</a>
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="YouTube">▶</a>
+          <a href="#" aria-label="Instagram">◎</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Academics</h4>
+        <a href="#">Undergraduate Programs</a>
+        <a href="#">Graduate Programs</a>
+        <a href="#">Online Certificates</a>
+        <a href="#">Course Catalog</a>
+        <a href="#">Academic Calendar</a>
+        <a href="#">Faculty Directory</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Admissions</h4>
+        <a href="#">How to Apply</a>
+        <a href="#">Tuition &amp; Fees</a>
+        <a href="#">Scholarships</a>
+        <a href="#">Financial Aid</a>
+        <a href="#">International Students</a>
+        <a href="#">Request Information</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <a href="#">Student Portal</a>
+        <a href="#">Library</a>
+        <a href="#">Career Services</a>
+        <a href="#">Alumni Network</a>
+        <a href="#">Help Center</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="footer-col footer-newsletter">
+        <h4>Stay Updated</h4>
+        <p>Subscribe to our newsletter for admissions updates, events, and program news.</p>
+        <form class="newsletter-form" id="newsletterForm">
+          <input type="email" id="newsletterEmail" placeholder="Your email address" required />
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+        <p class="newsletter-msg" id="newsletterMsg"></p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <span>© 2026 Global Tech Institute. All rights reserved.</span>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Accessibility</a>
+          <a href="#">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
