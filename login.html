@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Login — Global Tech Institute</title>
+  <meta name="description" content="Sign in to your Global Tech Institute student portal to access grades, schedules, and resources." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+
+  <!-- ============ TOP UTILITY BAR ============ -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-left">
+        <span>📞 +1 (800) 555-0199</span>
+        <span class="topbar-divider">|</span>
+        <span>✉️ admissions@globaltech.edu</span>
+      </div>
+      <div class="topbar-right">
+        <a href="index.html">Home</a>
+        <a href="#">Alumni</a>
+        <a href="#">Library</a>
+        <a href="#" class="topbar-cta">Apply Now</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ HEADER / MEGA-MENU NAV ============ -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">GTI</span>
+        <span class="logo-text">Global Tech<br /><small>Institute</small></span>
+      </a>
+
+      <nav class="main-nav" id="mainNav">
+        <ul class="nav-list">
+          <li class="nav-item has-mega">
+            <button class="nav-link" data-mega="academics">Academics <span class="caret">▾</span></button>
+            <div class="mega-menu" id="mega-academics">
+              <div class="mega-grid">
+                <div class="mega-col">
+                  <h4>Departments</h4>
+                  <a href="departments/computer-science.html">Computer Science</a>
+                  <a href="departments/business.html">Business</a>
+                  <a href="departments/design.html">Design</a>
+                  <a href="departments/engineering.html">Engineering</a>
+                  <a href="departments/medicine.html">Medicine</a>
+                  <a href="departments/law.html">Law</a>
+                </div>
+                <div class="mega-col">
+                  <h4>Programs</h4>
+                  <a href="#">Undergraduate</a>
+                  <a href="#">Graduate</a>
+                  <a href="#">Doctoral</a>
+                  <a href="#">Certificates</a>
+                  <a href="#">Micro-credentials</a>
+                </div>
+                <div class="mega-col mega-feature">
+                  <h4>Featured Program</h4>
+                  <div class="mega-card">
+                    <span class="mega-badge">New</span>
+                    <h5>B.Sc. Artificial Intelligence</h5>
+                    <p>Master machine learning, neural networks, and data science.</p>
+                    <a href="#" class="mega-link">Explore →</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item has-mega">
+            <button class="nav-link" data-mega="admissions">Admissions <span class="caret">▾</span></button>
+            <div class="mega-menu" id="mega-admissions">
+              <div class="mega-grid">
+                <div class="mega-col">
+                  <h4>Apply</h4>
+                  <a href="#">How to Apply</a>
+                  <a href="#">Application Deadlines</a>
+                  <a href="#">Tuition &amp; Fees</a>
+                  <a href="#">Scholarships</a>
+                  <a href="#">Financial Aid</a>
+                </div>
+                <div class="mega-col">
+                  <h4>Visit &amp; Connect</h4>
+                  <a href="#">Virtual Open House</a>
+                  <a href="#">Campus Tours</a>
+                  <a href="#">Request Info</a>
+                  <a href="#">Contact Admissions</a>
+                </div>
+                <div class="mega-col mega-feature">
+                  <h4>Upcoming Deadline</h4>
+                  <div class="mega-card">
+                    <span class="mega-badge accent">Spring 2027</span>
+                    <h5>Priority Application</h5>
+                    <p>Submit by <strong>November 15, 2026</strong>.</p>
+                    <a href="#" class="mega-link">Apply Now →</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item has-mega">
+            <button class="nav-link" data-mega="life">Student Life <span class="caret">▾</span></button>
+            <div class="mega-menu" id="mega-life">
+              <div class="mega-grid">
+                <div class="mega-col">
+                  <h4>Community</h4>
+                  <a href="#">Student Clubs</a>
+                  <a href="#">Events &amp; Activities</a>
+                  <a href="#">Athletics</a>
+                  <a href="#">Diversity &amp; Inclusion</a>
+                </div>
+                <div class="mega-col">
+                  <h4>Support</h4>
+                  <a href="#">Academic Advising</a>
+                  <a href="#">Career Services</a>
+                  <a href="#">Counseling</a>
+                  <a href="#">Disability Services</a>
+                </div>
+                <div class="mega-col mega-feature">
+                  <h4>Student Portal</h4>
+                  <div class="mega-card">
+                    <span class="mega-badge">24/7</span>
+                    <h5>Access Your Dashboard</h5>
+                    <p>Grades, schedules, and resources — all in one place.</p>
+                    <a href="login.html" class="mega-link">Sign In →</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Research</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="login.html" class="btn btn-primary btn-sm">Student Login</a>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ LOGIN SECTION ============ -->
+  <main class="login-page">
+    <section class="login-section">
+      <div class="container login-wrap">
+        <!-- Left: Branding panel -->
+        <div class="login-brand reveal">
+          <span class="section-tag">Student Portal</span>
+          <h1 class="login-title">Welcome back,<br />future leader. 🎓</h1>
+          <p class="login-sub">Access your courses, grades, schedules, and campus resources from one secure dashboard.</p>
+          <ul class="login-features">
+            <li>📚 Real-time grades &amp; transcripts</li>
+            <li>🗓️ Personalized class schedules</li>
+            <li>💬 Direct messaging with faculty</li>
+            <li>💳 Tuition &amp; fee management</li>
+          </ul>
+          <div class="login-quote">
+            <p>"Education is the most powerful weapon which you can use to change the world."</p>
+            <span>— Nelson Mandela</span>
+          </div>
+        </div>
+
+        <!-- Right: Login form -->
+        <div class="login-card reveal">
+          <div class="login-card-head">
+            <h2>Sign In</h2>
+            <p>Use your GTI student credentials to continue.</p>
+          </div>
+
+          <form id="loginForm" novalidate>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <div class="input-wrap">
+                <span class="input-icon">✉️</span>
+                <input type="email" id="email" name="email" placeholder="you@student.globaltech.edu" autocomplete="email" />
+              </div>
+              <span class="error-msg" id="emailError"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="password">Password</label>
+              <div class="input-wrap">
+                <span class="input-icon">🔒</span>
+                <input type="password" id="password" name="password" placeholder="Enter your password" autocomplete="current-password" />
+                <button type="button" class="toggle-pass" id="togglePass" aria-label="Show password">👁️</button>
+              </div>
+              <span class="error-msg" id="passwordError"></span>
+            </div>
+
+            <div class="form-row">
+              <label class="checkbox-label">
+                <input type="checkbox" id="remember" />
+                <span>Remember me</span>
+              </label>
+              <a href="#" class="forgot-link">Forgot password?</a>
+            </div>
+
+            <button type="submit" class="btn btn-primary login-btn">Sign In</button>
+
+            <div class="login-divider"><span>or continue with</span></div>
+
+            <div class="social-login">
+              <button type="button" class="social-btn">🔵 Google</button>
+              <button type="button" class="social-btn">⚫ GitHub</button>
+              <button type="button" class="social-btn">🔷 Microsoft</button>
+            </div>
+          </form>
+
+          <p class="login-signup">New to Global Tech Institute? <a href="#">Create an account</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-about">
+          <a href="index.html" class="logo footer-logo">
+            <span class="logo-mark">GTI</span>
+            <span class="logo-text">Global Tech<br /><small>Institute</small></span>
+          </a>
+          <p>Empowering the next generation of innovators through world-class online education since 2010.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook">📘</a>
+            <a href="#" aria-label="Twitter">🐦</a>
+            <a href="#" aria-label="Instagram">📸</a>
+            <a href="#" aria-label="LinkedIn">💼</a>
+            <a href="#" aria-label="YouTube">▶️</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Academics</h4>
+          <a href="departments/computer-science.html">Computer Science</a>
+          <a href="departments/business.html">Business</a>
+          <a href="departments/design.html">Design</a>
+          <a href="departments/engineering.html">Engineering</a>
+          <a href="departments/medicine.html">Medicine</a>
+          <a href="departments/law.html">Law</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <a href="#">About Us</a>
+          <a href="#">Admissions</a>
+          <a href="#">Research</a>
+          <a href="#">Careers</a>
+          <a href="#">Alumni</a>
+          <a href="#">Contact</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <p class="newsletter-text">Get the latest news, events, and program updates delivered to your inbox.</p>
+          <form id="newsletterForm" class="newsletter-form">
+            <input type="email" placeholder="Your email address" required />
+            <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+          </form>
+          <span class="newsletter-msg" id="newsletterMsg"></span>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Global Tech Institute. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Accessibility</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
