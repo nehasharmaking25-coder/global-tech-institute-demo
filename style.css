@@ -822,6 +822,7 @@ body::before {
   font-size: 0.82rem;
   color: var(--text-dim);
 }
+.footer-bottom .credit { color: var(--text-dim); opacity: 0.75; font-size: 0.78rem; }
 .footer-bottom-links { display: flex; gap: 20px; }
 .footer-bottom-links a { color: var(--text-dim); text-decoration: none; }
 .footer-bottom-links a:hover { color: #fff; }
